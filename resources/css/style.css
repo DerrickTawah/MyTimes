@@ -13,11 +13,25 @@
   background-color: white;
   padding: 5px 10px;
 
+}
 
+.logo{
+  flex-direction: row;
+  flex-grow: 1;
+  flex-basis: auto;
+  align-items: center;
+  padding-right: 30px;
 }
 
 .logo span {
   color: MediumAquamarine;
+  display: inline-block;
+}
+
+.logo img {
+  width: 80px;
+  height: 60px;
+  margin-right: 12px;
 }
 
 .nav span {
