@@ -9,8 +9,9 @@
 
 .logo{
   color: MediumAquamarine;
+  display: inline;
 }
 
-.navigation {
-
+.nav {
+display: inline-block;
 }
