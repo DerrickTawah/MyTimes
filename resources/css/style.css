@@ -1,9 +1,10 @@
 /*header style*/
-.header {
+header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   display: flex;
+  align-items:center;
   position: fixed
   z-index: 1;
   width: 100%
@@ -15,23 +16,26 @@
 }
 
 .logo{
-  flex-direction: row;
-  flex-grow: 1;
-  flex-basis: auto;
-  display: inline-block;
+  display: inline-flex;
+
 }
 
 .logo span {
   color: MediumAquamarine;
-  padding-bottom: 20px;
-  position: relative;
-  bottom: 20px;
+  width: 200px;
+  height: 60px;
+  padding-right: 30px;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+
 }
 
 .logo img {
-  width: 80px;
+  width: 70px;
   height: 60px;
   margin-right: 12px;
+  padding-left: 30px;
 }
 
 .nav span {
