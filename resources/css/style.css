@@ -4,8 +4,13 @@
   font-size: 14px;
   font-weight: bold;
   display: flex;
+  margin-bottom: solid;
 }
 
 .logo{
   color: MediumAquamarine;
+}
+
+.navigation {
+
 }
