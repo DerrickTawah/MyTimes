@@ -4,14 +4,18 @@
   font-size: 14px;
   font-weight: bold;
   display: flex;
-  margin-bottom: solid;
+  position: fixed
+  z-index: 1;
+  border: 1px solid black;
+  padding: 5px 10px;
+
+
 }
 
-.logo{
+.logo span {
   color: MediumAquamarine;
-  display: inline;
 }
 
-.nav {
+.nav span {
 display: inline-block;
 }
