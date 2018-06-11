@@ -54,7 +54,7 @@ header {
 .nav {
 width: 450px;
 height: auto;
-padding-right: 30px;
+padding-right: 60px;
 display: inline-flex;
 justify-content: flex-end;
 align-items: center;
