@@ -1,7 +1,6 @@
 body {
   font-family: Verdana;
   color: black;
-
 }
 
 /*header style*/
@@ -20,19 +19,13 @@ header {
   z-index: 1;
 }
 
-header.nav {
-  display: inline-flex;
-  align-items: center;
-  justify-content: flex-end;
-  padding-right: 30px;
-}
-
-.logo{
-  width: 650px;
+.logo {
+  width: 100%;
   height: auto;
   display: inline-flex;
   align-items: center;
   align-content: center;
+  padding-left: 30px;
 }
 
 .logo img {
@@ -40,7 +33,6 @@ header.nav {
   width: 70px;
   height: 60px;
   margin-right: 12px;
-  padding-left: 30px;
 }
 
 .logo span {
@@ -50,13 +42,19 @@ header.nav {
   padding-right: 30px;
   display: inline-flex;
   flex-grow: 1;
-  flex-shrink: 2;
+  flex-shrink: 1;
 }
 
-.nav span {
+.nav {
   display: inline-block;
+  height: 60px;
+  width: 350px;
+  margin-left: 60px;
   padding: 20px 10px;
-  height: auto;
+  margin-right: 40px;
+}
+.nav span {
+  padding: 20px 10px;
 }
 
 .nav a {
