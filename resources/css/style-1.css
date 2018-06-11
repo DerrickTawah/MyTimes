@@ -64,16 +64,31 @@ header {
 .container {
   display: flex;
   width: 100%;
+  border: 1px solid black;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
 }
 
 .column-large {
   width: 630px;
+  border: 1px solid black;
+  margin-right: 10px;
 }
 
 .column-medium {
   width: 300px;
+  border: 1px solid black;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .column-small {
   width: 240px;
+  border: 1px solid black;
+  margin-left: 10px;
+}
+
+.bites {
+  border: 1px solid black;
 }
