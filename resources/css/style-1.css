@@ -60,3 +60,20 @@ header {
 .nav a {
   color: inherit;
 }
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.column-large {
+  width: 630px;
+}
+
+.column-medium {
+  width: 300px;
+}
+
+.column-small {
+  width: 240px;
+}
