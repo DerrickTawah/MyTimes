@@ -52,12 +52,12 @@ header {
 }
 
 .nav {
-width: 450px;
-height: auto;
-padding-right: 60px;
-display: inline-flex;
-justify-content: flex-end;
-align-items: center;
-flex-grow: 2;
-flex-shrink: 2;
+  width: 450px;
+  height: auto;
+  padding-right: 60px;
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-grow: 2;
+  flex-shrink: 2;
 }
