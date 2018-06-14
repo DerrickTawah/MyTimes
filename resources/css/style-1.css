@@ -2,6 +2,8 @@ body {
   font-family: Verdana;
   color: black;
   font-size: 16px;
+  margin-left: 1px;
+  width: 1020px;
 }
 
 /*header style*/
@@ -21,7 +23,7 @@ header {
 }
 
 .logo {
-  width: auto;
+  width: 1020px;
   height: auto;
   display: inline-flex;
   align-items: center;
@@ -64,42 +66,66 @@ header {
   display: flex;
   width: 1020;
   border: 1px solid black;
+  flex-grow: 1;
+  padding-top: 40px;
 }
 
 .large {
   width: 630px;
   margin-right: 10px;
+  margin-top: 40px;
   display: flex;
   border: 1px solid black;
+  flex-direction: column;
 }
 
 .medium {
   width: 300px;
   border: 1px solid black;
   margin-left: 10px;
+  margin-top: 40px;
   margin-right: 10px;
   display: flex;
+  flex-direction: column;
 }
 
 .small {
   width: 240px;
   margin-left: 10px;
+  margin-top: 40px;
   display: flex;
   border: 1px solid black;
+  flex-direction: column;
+  margin-right: 32px;
 }
 
 .news-bites {
   display: flex;
+  flex-direction: column;
+  width: 240px;
+  height: 60px;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .bites {
-  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  height: 300px;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .mainstory {
   display: flex;
-  font-size: 40px;
+  margin-top: 40px;
+  margin-right: 10px;
   border: 1px solid black;
+  flex-direction: column;
+  width: 630px;
+  text-align: left;
+  justify-content: center;
 }
 
 .story-content {
@@ -107,25 +133,124 @@ header {
 }
 
 .secondarystories {
+  display: flex;
   border: 1px solid black;
+  width: 630px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-between;
+  margin-top: 16px;
+  color: black
 }
 
 .story-image-1 {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
   background-repeat: no-repeat;
-  background-size: auto;
-  display:flex;
+  display: flex;
+  width: 630px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
-.story-image-1 span {
+.story-image-2 span {
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  height: 300px;
+  margin-bottom: 16px;
+}
+
+.story-image-3 span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  height: 300px;
+  margin-bottom: 16px;
+}
+
+.story-image-4 span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  height: 300px;
+  margin-bottom: 16px;
+}
+
+.story-image-2 {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+  background-repeat: no-repeat;
+  display: flex;
+  width: 315px;
+}
+
+.story-image-3 {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+  background-repeat: no-repeat;
+  display: flex;
+  width: 315px;
+}
+
+.story-image-4 {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+  background-repeat: no-repeat;
+  display: flex;
+  width: 300px;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .storyline {
-  font-family: Georgia;
-  font-size: 17px;
-  color: black;
+  display: flex;
+  margin-top: 16px;
+  margin-right: 10px;
+  width: 300px;
+  flex-direction: column;
+}
+
+.mainstory .storyline {
+  display: flex;
+  width: 630px;
+}
+
+.small img {
+  height: 240px;
+  width: 240px;
+  display: flex;
+}
+
+.new-bites-h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.news-bites .bites {
+  display: block;
+  padding: 10px 20px;
+  background-color: whitesmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: dimgray;
+}
+.medium .story-content {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
 }
