@@ -76,10 +76,6 @@ header {
   margin-right: 10px;
 }
 
-.column-large div {
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
-}
-
 .column-medium {
   width: 300px;
   border: 1px solid black;
