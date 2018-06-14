@@ -1,6 +1,7 @@
 body {
   font-family: Verdana;
   color: black;
+  font-size: 16px;
 }
 
 /*header style*/
@@ -11,10 +12,10 @@ header {
   color: black;
   border-bottom: 1px solid black;
   background-color: white;
-  padding: 5px 10px;
   display: flex;
+  align-items: center;
   width: 100%;
-  height: 60px;
+  height: 80px;
   position: fixed;
   z-index: 1;
 }
@@ -39,43 +40,78 @@ header {
   color: MediumAquamarine;
   width: 250px;
   height: auto;
-  padding-right: 20px;
-  display: inline-flex;
-  flex-grow: 1;
-  flex-shrink: 1;
+  padding-right: 20px 10px;
+  display: inline-block;
 }
 
 .nav {
-  display: inline-block;
-  height: 60px;
-  width: 350px;
-  margin-left: 60px;
-  padding: 20px 10px;
-  margin-right: 40px;
+  padding right: 40px;
+
 }
 .nav span {
   padding: 20px 10px;
+  display: inline-block;
 }
 
 .nav a {
   color: inherit;
 }
-
+/*content area*/
 .container {
   display: flex;
-  width: 100%;
+  width: auto;
   border: 1px solid black;
+}
+
+.large {
+  width: 630px;
   margin-right: 10px;
+  display: flex;
+  border: 1px solid black;
+}
+
+.medium {
+  width: 300px;
+  border: 1px solid black;
   margin-left: 10px;
-  margin-top: 20px;
+  margin-right: 10px;
+  display: flex;
+}
+
+.small {
+  width: 240px;
+  margin-left: 10px;
+  display: flex;
+  border: 1px solid black;
+}
+
+.news-bites {
+  display: flex;
+}
+
+.bites {
+  border: 1px solid black;
 }
 
 .mainstory {
   display: flex;
+  font-size: 40px;
+  border: 1px solid black;
+}
+
+.story-content {
+  border: 1px solid black;
+}
+
+.secondarystories {
+  border: 1px solid black;
 }
 
 .story-image-1 {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  display:flex;
 }
 
 .story-image-1 span {
@@ -89,27 +125,4 @@ header {
   font-family: Georgia;
   font-size: 17px;
   color: black;
-}
-
-.large {
-  width: 630px;
-  border: 1px solid black;
-  margin-right: 10px;
-}
-
-.medium {
-  width: 300px;
-  border: 1px solid black;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.small {
-  width: 240px;
-  border: 1px solid black;
-  margin-left: 10px;
-}
-
-.news-bites {
-  border: 1px solid black;
 }
