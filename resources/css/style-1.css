@@ -72,17 +72,20 @@ header {
 
 .mainstory {
   display: flex;
+}
+
+.story-image-1 {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+}
+
+.story-image-1 span {
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
-  width: 630px;
-  height: 60px;
-  align-items: flex-start;
 }
 
-.mainstory p {
+.storyline {
   font-family: Georgia;
   font-size: 17px;
   color: black;
