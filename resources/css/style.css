@@ -11,12 +11,13 @@ body {
 main {
     display: flex;
     flex-flow: column;
-    margin: 8em 2.5em;
+    margin: 8em;
     position: relative;
     padding: 2em;
 }
 
 header {
+    display: flex;
     width: 100%;
     margin-bottom: 2em;
     position: fixed;
@@ -29,21 +30,24 @@ header {
 }
 
 div.logo {
-    float: left;
-    width: 30%;
-    padding-right: 1em;
-    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 230px;
+    padding: 1em;
+    margin: 0 auto 0 0;
 }
 
 .logo {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
 .logo img {
     height: auto;
     padding-right: .2em;
+    padding-left: .2em;
     width: 40%;
 }
 
@@ -64,18 +68,273 @@ header nav {
 }
 
 header nav ul {
+    display: flex;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 header nav ul li {
     list-style: none;
+    padding: .25em;
 }
 
 header nav ul li a {
     text-decoration: none;
     font-size: 80%;
+    padding: .1em;
+}
+
+.mainstory {
+    margin-top: 2em;
+    padding-top: auto;
+}
+
+.story-image-1 {
+    background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.story-image-2 {
+    background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+    background-repeat: repeat;
+    background-size: 100%;
+    color: white;
+}
+
+.story-image-3 {
+    background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+    background-repeat: repeat;
+    background-size: 100%;
+    color: white;
+}
+
+.story-image-4 {
+    background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+    background-repeat: repeat;
+    background-size: 100%;
+    color: white;
+}
+
+.right {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    align-self: center;
+}
+
+.small {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.small img {
+    width: 100%;
+    height: auto;
+    margin-bottom: -3.5em;
+}
+
+
+.news-bites {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto;
+}
+
+.news-bites h3 {
+    margin: 0 auto;
+}
+
+.bites {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: whitesmoke;
+    font-size: 12px;
+    color: dimgray;
+    border-bottom: 1px solid black;
+}
+
+footer {
+    background: MediumAquamarine;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    margin-top: 8em;
+}
+
+.footer-info {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-title {
+    border-right: .2em solid white;
+    padding-right: 2em;
+    padding-left: 1em;
+    font-size: 90%;
+}
+
+footer nav ul {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    margin-left: -1em;
+}
+
+footer nav ul li {
+    list-style: none;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    padding: .5em;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 80%;
+    padding-bottom: 1em;
+}
+
+@media screen and (min-width: 768px) {
+
+      main.container {
+        display: flex;
+        flex-flow: column;
+        margin-top: 8em;
+        margin-bottom: 8em;
+        position: relative;
+        padding: 2em;
+    }
+
+    header {
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+
+
+    div.logo {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 230px;
+        padding: 1em;
+        margin: 0 auto 0 0;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    header nav {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 538px;
+        padding: 2em 1em;
+        margin: 0 auto 0 0;
+    }
+
+    header nav ul li a {
+        text-decoration: none;
+        font-size: 100%;
+        padding-left: .5em;
+    }
+
+   .story-image-1 {
+       background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+       color: white;
+       background-repeat: no-repeat;
+       background-size: cover;
+       width: auto;
+       height: 9em;
+   }
+
+   .story-image-1, .story-image-2, .story-image-3, .story-image-4 > span {
+       font-size: 2em;
+       text-align: center;
+       margin: auto 0;
+   }
+
+   .story-image-2 {
+       background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+       background-repeat: no-repeat;
+       background-size: 100%;
+       color: white;
+       width: auto;
+       height: 19.7em;
+   }
+
+   .story-image-3 {
+       background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+       background-repeat: no-repeat;
+       background-size: 100%;
+       color: white;
+       width: auto;
+       height: 19.7em;
+   }
+
+   .story-image-4 {
+       background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+       background-repeat: no-repeat;
+       background-size: 100%;
+       color: white;
+       width: auto;
+       height: 18.75em;
+   }
+
+    .news-bites {
+        display: flex;
+        flex-flow: column;
+        width: 537px;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    main.container {
+        display: flex;
+        flex-flow: row;
+        width: 100%;
+    }
+
+    .large {
+        display: flex;
+        flex-flow: column;
+        padding-right: 1em;
+        width: 33,33%;
+    }
+
+     .middle {
+         display: flex;
+         flex-flow: column;
+         padding-right: 1em;
+         width: 33,33%;
+     }
+
+     .right {
+         display: flex;
+         flex-flow: column;
+         width: 33,33%;
+     }
+
 }
 
