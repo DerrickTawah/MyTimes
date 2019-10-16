@@ -13,13 +13,13 @@
   <body>
     <!--Header section-->
     <header>
-      <section class="branding container">
+      <div class="branding container">
         <div class="logo">
           <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-myt-logo.jpg" alt="MyTimes Logo">
-          <h1>My Times</h1>
+          <div>My Times</div>
         </div>
-      </section>
-      <section class="navigation container">
+      </div>
+      <div class="navigation container">
           <nav class="navbar">
             <ul>
               <li><a href="#">World</a></li>
@@ -28,20 +28,20 @@
               <li><a href="#">Science</a></li>
             </ul>
           </nav>
-      </section>  
+      </div>  
     </header>
 
     <!--news content area-->
     <main>
-      <section class="left container">
+      <div class="left container">
           <!--left column-->
           <article class="mainstory">
+              <h1 class="main-header">Mother of Three Buys Tuna Steak at Phish Concert. Leaves, "Feeling Funny."</h1>
               <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png" alt="Main Story Caption Image">
-              <div>Mother of Three Buys Tuna Steak at Phish Concert. Leaves, "Feeling Funny."</div>
               <p class="storyline">MONUMENT VALLEY, AZ - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec nisl at augue dapibus dignissim. Nunc condimentum rutrum metus, ac eleifend lacus viverra nec. Proin ultrices egestas diam sed mollis. Nulla sapien massa, dictum vitae est et, pellentesque rutrum risus. Nunc volutpat, metus ac rutrum tempus, orci nisi porttitor dolor, sit amet luctus metus est ut mauris. Quisque vulputate nisl vitae massa rhoncus, at sagittis elit accumsan. Etiam tempus, lorem quis blandit imperdiet, enim dui lobortis tortor, sit amet lobortis arcu ex id odio. Nam fermentum nulla et eros bibendum, sed ullamcorper massa scelerisque. Vestibulum aliquet placerat leo a hendrerit. Nulla non sagittis neque. Nullam sit amet fringilla massa.</p>
           </article>
           <div class="sub-story">
-              <article class="story">
+              <article class="story1">
                 <h2>Orca Spends Vacation at Land World Puget</h2>
                 <p class="storyline">PUGET, SO - Sed felis elit, faucibus et ipsum vel, vehicula ultrices purus. Sed congue odio vitae malesuada rhoncus. Integer vitae nisi pulvinar ante accumsan...</p>
                 <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png" alt="Story Caption Image">
@@ -49,29 +49,29 @@
               </article>
           </div>
           <div class="sub-story">
-              <article class="story">
+              <article class="story2">
                 <h2>Burger for Breakfast: How Early is too Early?</h2>
                 <p class="storyline">Mew York, MY—Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque id quam facilisis, ultrices ante ut, rutrum enim. Praesent eu nisl erat.</p>
                 <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png" alt="Story Caption Image">
                 <div>Research Shows Cameras Erase Memory</div>
               </article>
           </div>
-      </section>
+      </div>
       <!--middle news column-->
-      <section class="middle container">
-          <article class="story">
+      <div class="middle container">
+          <article class="story3">
               <h2>FBI Finds Action Star Guilty of False Advertising</h2>
               <p class="storyline">WASHINGTON DC- Donec luctus sem augue, rutrum posuere orci aliquam sed. Nam vitae aliquam lectus. Sed tempor tortor est, nec sagittis eros tincidunt sed. Morbi venenatis condimentum sem, vitae sollicitudin turpis pulvinar eget. Morbi pellentesque consectetur mi id auctor. Phasellus tincidunt orci mauris, placerat pharetra urna fringilla vitae. Morbi eget rutrum urna. Cras condimentum augue ut ante sollicitudin interdum. Pellentesque cursus dolor at tincidunt cursus. Vestibulum blandit aliquam felis...</p>
           </article>
-          <article class="story">
+          <article class="story4">
+            <h2>Cats in Control-Is It a Thing?</h2>
             <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png"
               alt="Story Caption Image">
-            <div>Cats in Control-Is It a Thing?</div>
             <p class="storyline">BROOKLYN, NY- In molestie nulla sodales sit amet. Proin vulputate, ipsum porta aliquam commodo, nunc nibh tincidunt lorem, vel consectetur neque mi vel neque. Mauris ultricies, nulla scelerisque sollicitudin lobortis, dui est sodales sapien, a vestibulum velit diam eget felis. Vivamus dignissim lacinia dolor, quis commodo tellus pellentesque in.</p>
           </article>
-      </section>
+      </div>
       <!--last news column-->
-      <section class="small container">
+      <div class="small container">
         <div class="news-bites">
           <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-news-bite.png" alt="Cake">
           <div>NEWS BITES</div>
@@ -84,19 +84,21 @@
             <li class="bites">Finally a Top Secret Way You Can</li>
           </ul>
         </div>
-      </section>
+      </div>
     </main>
     <!--<footer></footer>-->
     <footer class="footer container">
-        <div class="footer-title">My Times</div>
-        <nav>
-          <ul>
-              <li><a href="#">World</a></li>
-              <li><a href="#">U.S.</a></li>
-              <li><a href="#">Tech</a></li>
-              <li><a href="#">Science</a></li>
-          </ul>
-        </nav>
+        <div class="fmenu">
+          <div class="ftitle">My Times</div>
+          <nav>
+            <ul>
+                <li><a href="#">World</a></li>
+                <li><a href="#">U.S.</a></li>
+                <li><a href="#">Tech</a></li>
+                <li><a href="#">Science</a></li>
+            </ul>
+          </nav>
+        </div>
       <div class="copyright">
         © 2016, My Times (A Division of Codecademy bite)
       </div>
