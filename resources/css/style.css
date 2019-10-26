@@ -43,7 +43,7 @@ header {
     border-bottom: 1px solid black;
     position: fixed;
     z-index: 2;
-    padding: 0 4em;
+    padding: 2em 4em;
 }
 
 .branding {
